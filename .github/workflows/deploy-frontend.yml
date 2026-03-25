@@ -41,4 +41,3 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./frontend/out/
           server-dir: ./public_html/redirectmaster/
-          dangerous-clean-slate: true
