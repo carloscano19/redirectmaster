@@ -40,4 +40,5 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./frontend/out/
-          server-dir: ./redirectmaster/
+          server-dir: domains/carloscanofernandez.com/public_html/redirectmaster/
+          dangerous-clean-slate: true
